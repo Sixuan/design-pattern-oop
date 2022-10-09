@@ -1,21 +1,15 @@
-// Interface named Component 
-public interface Component {
-    // Method inside interface
-    void operation();
+public abstract class Component {
+  public abstract void operation();
 }
 
-public abstract class AbstractComponent implements Component {
-  public void operation();
-}
-
-public class ComponentA extends AbstractComponent implements Component {
+public class ComponentA extends Component {
   public void operation() {
     //operation on Object ComponentA
   }  
 }
 
-public class ComponentB extends AbstractComponent implements Component {
-  public void performAction(SubjectData d) {
+public class ComponentB extends Component {
+  public void operation() {
     //operation on Object ComponentB
   }  
 }
