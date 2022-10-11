@@ -18,7 +18,7 @@ public class DecoratorA extends Decorator {
       System.out.println("DecoratorA: operation");
     }
  
-    private void operationNew()
+    public void operationNew()
     {
       //NEW operation on Object DecoratorA
       System.out.println("DecoratorA: NEW operation");
