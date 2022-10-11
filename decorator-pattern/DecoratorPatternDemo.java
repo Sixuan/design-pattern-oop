@@ -1,7 +1,3 @@
-// DecoratorPatternDemo.java
-
-// Class
-// Main class
 public class DecoratorPatternDemo {
 
 	// Main driver method
