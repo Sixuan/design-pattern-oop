@@ -14,7 +14,6 @@ public class DecoratorPatternDemo {
 		comA.operation(); // ComponentA: operation
 		comB.operation(); // ComponentB: operation
 
-
 		// Creating an object of DecoratorA
 		DecoratorA decorA = new Decorator(new ComponentA());
 		decorA.operation(); // DecoratorA: operation
